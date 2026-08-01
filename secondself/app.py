@@ -1,7 +1,13 @@
 import streamlit as st
 import json
 import os
+import sys
 import streamlit.components.v1 as components
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+if BASE_DIR not in sys.path:
+    sys.path.append(BASE_DIR)
+
 from ask import ask
 from lib.embeddings import load_embeddings
 from lib.storage import load_index, RAW_DIR, WIKI_DIR
@@ -9,8 +15,6 @@ import subprocess
 from capture import capture_note, capture_link
 
 st.set_page_config(page_title="SecondSelf", page_icon="🧠", layout="wide")
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 @st.cache_resource
 def get_embeddings_cached():
