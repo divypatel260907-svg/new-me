@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 hey my name is divy
+=======
+hey my name is divy
+>>>>>>> 16f5586 (Initial commit)
 i am a coder and a gamer

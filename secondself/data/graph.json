@@ -1,0 +1,451 @@
+{
+  "nodes": [
+    {
+      "id": "043d9775",
+      "label": "Shopping list for essential items",
+      "para": "Projects",
+      "tags": [
+        "groceries",
+        "shopping",
+        "food"
+      ],
+      "summary": "Shopping list for essential items",
+      "content_preview": "Need to buy: Milk, Eggs, Bread, and Coffee beans (preferably Ethiopian single origin).",
+      "group": "Projects"
+    },
+    {
+      "id": "187d93ce",
+      "label": "A 4-week project to build an end-to-end system for capturing, organizing, and retrieving knowledge using AI and natural language processing.",
+      "para": "Projects",
+      "tags": [
+        "secondself",
+        "ai",
+        "secondbrain",
+        "knowledge management"
+      ],
+      "summary": "A 4-week project to build an end-to-end system for capturing, organizing, and retrieving knowledge using AI and natural language processing.",
+      "content_preview": "File: Week_2_Session_1_Note.pdf\n\nProject:  SecondSelf  \u2014  Your  Personal  AI  Second  Brain  \nProblemStatement.md  \nEvery  notes  app  fails  the  same  way:  you  capture  hundreds  of  notes,  bookm",
+      "group": "Projects"
+    },
+    {
+      "id": "2d22ca83",
+      "label": "Draft email to investors seeking a Seed round of $0.5M",
+      "para": "Projects",
+      "tags": [
+        "investment",
+        "funding",
+        "seed round"
+      ],
+      "summary": "Draft email to investors seeking a Seed round of $0.5M",
+      "content_preview": "Draft email to investors: We have grown 20% MoM and are looking to raise a Seed round of .5M.",
+      "group": "Projects"
+    },
+    {
+      "id": "308f2af8",
+      "label": "Setting up CI/CD for a new React project using GitHub Actions",
+      "para": "Projects",
+      "tags": [
+        "github-actions",
+        "cicd",
+        "react",
+        "ci",
+        "cd"
+      ],
+      "summary": "Setting up CI/CD for a new React project using GitHub Actions",
+      "content_preview": "https://github.com/features/actions - GitHub Actions documentation. Need to set up CI/CD for the new React project.",
+      "group": "Projects"
+    },
+    {
+      "id": "3ac507e9",
+      "label": "Initial test capture for system evaluation",
+      "para": "Projects",
+      "tags": [
+        "test",
+        "capture"
+      ],
+      "summary": "Initial test capture for system evaluation",
+      "content_preview": "This is my first capture to test the system.\n\n[[b62c0b2e]]",
+      "group": "Projects"
+    },
+    {
+      "id": "42abb63c",
+      "label": "PPL workout routine for this month, 6 days a week with focus on progressive overload.",
+      "para": "Projects",
+      "tags": [
+        "fitness",
+        "workout",
+        "routine",
+        "ppl",
+        "progressive overload"
+      ],
+      "summary": "PPL workout routine for this month, 6 days a week with focus on progressive overload.",
+      "content_preview": "Workout routine for this month: PPL (Push, Pull, Legs) 6 days a week. Focus on progressive overload.",
+      "group": "Projects"
+    },
+    {
+      "id": "780177af",
+      "label": "Update marketing dashboard by next Tuesday to focus on user acquisition metrics",
+      "para": "Projects",
+      "tags": [
+        "meeting",
+        "marketing",
+        "dashboard",
+        "user acquisition"
+      ],
+      "summary": "Update marketing dashboard by next Tuesday to focus on user acquisition metrics",
+      "content_preview": "Meeting notes with Sarah: She wants the marketing dashboard to be updated by next Tuesday. Focus on user acquisition metrics.",
+      "group": "Projects"
+    },
+    {
+      "id": "8f78658c",
+      "label": "Develop a CRM system tailored for freelance designers, integrating with Figma and Webflow.",
+      "para": "Projects",
+      "tags": [
+        "crm",
+        "freelance",
+        "designers",
+        "figma",
+        "webflow"
+      ],
+      "summary": "Develop a CRM system tailored for freelance designers, integrating with Figma and Webflow.",
+      "content_preview": "Idea: Build a specialized CRM for freelance designers that integrates with Figma and Webflow.",
+      "group": "Projects"
+    },
+    {
+      "id": "917d2154",
+      "label": "Renew personal portfolio website domain name",
+      "para": "Projects",
+      "tags": [
+        "portfolio",
+        "domain",
+        "renewal"
+      ],
+      "summary": "Renew personal portfolio website domain name",
+      "content_preview": "Remember to renew the domain name for my personal portfolio website before the 15th.",
+      "group": "Projects"
+    },
+    {
+      "id": "9e4415f8",
+      "label": "Essay on how to start a startup by focusing on actions that don't scale",
+      "para": "Projects",
+      "tags": [
+        "startups",
+        "entrepreneurship",
+        "paulgraham"
+      ],
+      "summary": "Essay on how to start a startup by focusing on actions that don't scale",
+      "content_preview": "https://www.paulgraham.com/ds.html - 'Do Things that Don't Scale'. Great essay on how to start a startup.",
+      "group": "Projects"
+    },
+    {
+      "id": "b62c0b2e",
+      "label": "Initial test capture for system evaluation",
+      "para": "Projects",
+      "tags": [
+        "test",
+        "capture"
+      ],
+      "summary": "Initial test capture for system evaluation",
+      "content_preview": "This is my first capture to test the system.\n\n[[3ac507e9]]",
+      "group": "Projects"
+    },
+    {
+      "id": "cbf26454",
+      "label": "Finish learning Rust programming language by next month",
+      "para": "Projects",
+      "tags": [
+        "rust",
+        "programming",
+        "language",
+        "learning",
+        "deadline"
+      ],
+      "summary": "Finish learning Rust programming language by next month",
+      "content_preview": "I want to finish learning Rust programming language by next month.\n\n[[d87d3e90]]",
+      "group": "Projects"
+    },
+    {
+      "id": "d87d3e90",
+      "label": "Finish learning Rust programming language by next month",
+      "para": "Projects",
+      "tags": [
+        "rust",
+        "programming",
+        "language",
+        "learning",
+        "deadline"
+      ],
+      "summary": "Finish learning Rust programming language by next month",
+      "content_preview": "I want to finish learning Rust programming language by next month.\n\n[[cbf26454]]",
+      "group": "Projects"
+    },
+    {
+      "id": "0de4df45",
+      "label": "A link to a resource",
+      "para": "Resources",
+      "tags": [
+        "link",
+        "reference"
+      ],
+      "summary": "A link to a resource",
+      "content_preview": "my link",
+      "group": "Resources"
+    },
+    {
+      "id": "2368c216",
+      "label": "YouTube URL",
+      "para": "Resources",
+      "tags": [
+        "url",
+        "website",
+        "youtube"
+      ],
+      "summary": "YouTube URL",
+      "content_preview": "URL: https://www.yotube.com\n\nFailed to fetch content.",
+      "group": "Resources"
+    },
+    {
+      "id": "2891c8ec",
+      "label": "A popular Indian-inspired dish made with marinated chicken in a creamy sauce.",
+      "para": "Resources",
+      "tags": [
+        "chicken",
+        "indian",
+        "recipe",
+        "dinner"
+      ],
+      "summary": "A popular Indian-inspired dish made with marinated chicken in a creamy sauce.",
+      "content_preview": "Recipe: Chicken Tikka Masala. Marinate chicken in yogurt and spices overnight. Use heavy cream for the sauce.",
+      "group": "Resources"
+    },
+    {
+      "id": "38097753",
+      "label": "Introduction to the author, Divy",
+      "para": "Resources",
+      "tags": [
+        "coder",
+        "gamer",
+        "divy",
+        "profile",
+        "bio"
+      ],
+      "summary": "Introduction to the author, Divy",
+      "content_preview": "File: mt.txt\n\nhey my name is divy\ni am a coder and a gamer\n\n[[9132a64e]]",
+      "group": "Resources"
+    },
+    {
+      "id": "3831f49e",
+      "label": "Example domain for documentation purposes",
+      "para": "Resources",
+      "tags": [
+        "documentation",
+        "example",
+        "domain",
+        "reference"
+      ],
+      "summary": "Example domain for documentation purposes",
+      "content_preview": "URL: https://example.com\nTitle: Example Domain\n\nExample DomainExample DomainThis domain is for use in documentation examples without needing permission. Avoid use in operations.Learn more\n\n[[f4d8143a]",
+      "group": "Resources"
+    },
+    {
+      "id": "388ed595",
+      "label": "mt.txt file",
+      "para": "Resources",
+      "tags": [
+        "mt",
+        "text"
+      ],
+      "summary": "mt.txt file",
+      "content_preview": "./mt.txt",
+      "group": "Resources"
+    },
+    {
+      "id": "585d7d60",
+      "label": "A quote from Seneca on the nature of suffering",
+      "para": "Resources",
+      "tags": [
+        "philosophy",
+        "quotes",
+        "seneca"
+      ],
+      "summary": "A quote from Seneca on the nature of suffering",
+      "content_preview": "Quote: 'We suffer more often in imagination than in reality.' - Seneca",
+      "group": "Resources"
+    },
+    {
+      "id": "8d1689db",
+      "label": "Artificial intelligence is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
+      "para": "Resources",
+      "tags": [
+        "artificial intelligence",
+        "machine learning",
+        "deep learning",
+        "natural language processing",
+        "robotics"
+      ],
+      "summary": "Artificial intelligence is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
+      "content_preview": "URL: https://en.wikipedia.org/wiki/Artificial_intelligence\nTitle: Artificial intelligence - Wikipedia\n\nContent:\nArtificial intelligence - Wikipedia\nJump to content\nMain menu\nMain menu\nmove to sidebar\n",
+      "group": "Resources"
+    },
+    {
+      "id": "9132a64e",
+      "label": "Introduction to Divy, a coder and gamer.",
+      "para": "Resources",
+      "tags": [
+        "coder",
+        "gamer",
+        "divy",
+        "profile",
+        "bio"
+      ],
+      "summary": "Introduction to Divy, a coder and gamer.",
+      "content_preview": "File: mt.txt\n\nhey my name is divy\ni am a coder and a gamer\n\n[[38097753]]",
+      "group": "Resources"
+    },
+    {
+      "id": "b66e6a21",
+      "label": "A test note for PARA categorization",
+      "para": "Resources",
+      "tags": [
+        "test",
+        "note"
+      ],
+      "summary": "A test note for PARA categorization",
+      "content_preview": "test note",
+      "group": "Resources"
+    },
+    {
+      "id": "b85165a9",
+      "label": "A book on UX design by Don Norman",
+      "para": "Resources",
+      "tags": [
+        "book",
+        "ux",
+        "design"
+      ],
+      "summary": "A book on UX design by Don Norman",
+      "content_preview": "Book recommendation: The Design of Everyday Things by Don Norman. Essential for UX design.",
+      "group": "Resources"
+    },
+    {
+      "id": "be82b305",
+      "label": "Google homepage with various services and languages",
+      "para": "Resources",
+      "tags": [
+        "google",
+        "search engine",
+        "online services",
+        "multilingual"
+      ],
+      "summary": "Google homepage with various services and languages",
+      "content_preview": "URL: https://www.google.com\nTitle: Google\n\nContent:\nGoogle\nGmail\nImages\nSign in\nAdvanced search\nGoogle offered in:\n\u0939\u093f\u0928\u094d\u0926\u0940\n\u09ac\u09be\u0982\u09b2\u09be\n\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41\n\u092e\u0930\u093e\u0920\u0940\n\u0ba4\u0bae\u0bbf\u0bb4\u0bcd\n\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0\n\u0c95\u0ca8\u0ccd\u0ca8\u0ca1\n\u0d2e\u0d32\u0d2f\u0d3e\u0d33\u0d02\n\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40\nAdvertising\nBusiness Solu",
+      "group": "Resources"
+    },
+    {
+      "id": "c6cad3a0",
+      "label": "The official Google homepage.",
+      "para": "Resources",
+      "tags": [
+        "google",
+        "search engine",
+        "webpage",
+        "url",
+        "google homepage"
+      ],
+      "summary": "The official Google homepage.",
+      "content_preview": "URL: https://www.google.com\nTitle: Google\n\nGoogleGmailImagesSign in\u00a0Advanced searchGoogle offered in:\n\u0939\u093f\u0928\u094d\u0926\u0940 \u09ac\u09be\u0982\u09b2\u09be \u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 \u092e\u0930\u093e\u0920\u0940 \u0ba4\u0bae\u0bbf\u0bb4\u0bcd \u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0c95\u0ca8\u0ccd\u0ca8\u0ca1 \u0d2e\u0d32\u0d2f\u0d3e\u0d33\u0d02 \u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40 AdvertisingBusiness SolutionsAbout Goo",
+      "group": "Resources"
+    },
+    {
+      "id": "d5f63b91",
+      "label": "A digital or physical notebook used to store and organize knowledge, ideas, and information.",
+      "para": "Resources",
+      "tags": [
+        "productivity",
+        "note-taking",
+        "organization",
+        "knowledge-management",
+        "second-brain"
+      ],
+      "summary": "A digital or physical notebook used to store and organize knowledge, ideas, and information.",
+      "content_preview": "URL: https://en.wikipedia.org/wiki/Second_Brain\n\nFailed to fetch content.",
+      "group": "Resources"
+    },
+    {
+      "id": "f4d8143a",
+      "label": "Example domain for documentation purposes",
+      "para": "Resources",
+      "tags": [
+        "documentation",
+        "example",
+        "domain",
+        "reference"
+      ],
+      "summary": "Example domain for documentation purposes",
+      "content_preview": "URL: https://example.com\nTitle: Example Domain\n\nExample DomainExample DomainThis domain is for use in documentation examples without needing permission. Avoid use in operations.Learn more\n\n[[3831f49e]",
+      "group": "Resources"
+    },
+    {
+      "id": "f7e43945",
+      "label": "The provided content is a text that needs to be analyzed.",
+      "para": "Resources",
+      "tags": [
+        "text",
+        "content",
+        "analysis"
+      ],
+      "summary": "The provided content is a text that needs to be analyzed.",
+      "content_preview": "my text",
+      "group": "Resources"
+    }
+  ],
+  "edges": [
+    {
+      "source": "187d93ce",
+      "target": "other-id",
+      "weight": 1.0,
+      "type": "link"
+    },
+    {
+      "source": "187d93ce",
+      "target": "id",
+      "weight": 1.0,
+      "type": "link"
+    },
+    {
+      "source": "3ac507e9",
+      "target": "b62c0b2e",
+      "weight": 1.0,
+      "type": "link"
+    },
+    {
+      "source": "cbf26454",
+      "target": "d87d3e90",
+      "weight": 1.0,
+      "type": "link"
+    },
+    {
+      "source": "38097753",
+      "target": "9132a64e",
+      "weight": 1.0,
+      "type": "link"
+    },
+    {
+      "source": "3831f49e",
+      "target": "f4d8143a",
+      "weight": 1.0,
+      "type": "link"
+    },
+    {
+      "source": "be82b305",
+      "target": "c6cad3a0",
+      "weight": 1.0,
+      "type": "link"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-08-01T13:33:30.685052Z",
+    "node_count": 29,
+    "edge_count": 7
+  }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SecondSelf Interactive Graph</title>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <style type="text/css">
+        body { margin: 0; padding: 0; font-family: sans-serif; background-color: #fafafa; }
+        #mynetwork {
+            width: 100vw;
+            height: 100vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<div id="mynetwork"></div>
+<script type="text/javascript">
+    const container = document.getElementById('mynetwork');
+    
+    const options = {
+        groups: {
+            Projects: { color: { background: '#FFDDC1', border: '#FFC8A2' } },
+            Areas: { color: { background: '#D4F0F0', border: '#8FCACA' } },
+            Resources: { color: { background: '#CCE2CB', border: '#B6CFB6' } },
+            Archives: { color: { background: '#E0E0E0', border: '#BDBDBD' } }
+        },
+        physics: {
+            barnesHut: {
+                gravitationalConstant: -8000,
+                springLength: 150
+            },
+            stabilization: {
+                iterations: 200
+            }
+        },
+        interaction: {
+            dragNodes: true,
+            dragView: true,
+            zoomView: true,
+            hover: true
+        },
+        nodes: {
+            shape: 'dot',
+            size: 15,
+            font: {
+                size: 14,
+                color: '#333'
+            },
+            borderWidth: 2
+        },
+        edges: {
+            width: 1,
+            color: '#999',
+            smooth: {
+                type: 'continuous'
+            }
+        }
+    };
+
+    fetch('../data/graph.json')
+        .then(response => response.json())
+        .then(data => {
+            const nodes = data.nodes.map(n => ({
+                id: n.id,
+                label: n.summary.length > 25 ? n.summary.substring(0, 25) + '...' : n.summary,
+                group: n.group,
+                title: `<div style="max-width:300px; white-space:pre-wrap; font-family:sans-serif; padding:5px;"><strong>${n.summary}</strong><br><br><span style="color:#555;">${n.content_preview}</span></div>`
+            }));
+            
+            const edges = data.edges.map(e => ({
+                from: e.source,
+                to: e.target
+            }));
+
+            const graphData = {
+                nodes: new vis.DataSet(nodes),
+                edges: new vis.DataSet(edges)
+            };
+
+            const network = new vis.Network(container, graphData, options);
+        })
+        .catch(err => console.error("Error loading graph data:", err));
+</script>
+</body>
+</html>
