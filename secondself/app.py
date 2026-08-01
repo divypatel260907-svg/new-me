@@ -12,6 +12,7 @@ from ask import ask
 from lib.embeddings import load_embeddings
 from lib.storage import load_index, RAW_DIR, WIKI_DIR
 import subprocess
+from pipeline import cmd_process
 from capture import capture_note, capture_link
 
 st.set_page_config(page_title="SecondSelf", page_icon="🧠", layout="wide")
@@ -159,7 +160,7 @@ with st.sidebar:
     if st.button("Process Pipeline"):
         with st.spinner("Running pipeline (classify + link)..."):
             try:
-                subprocess.run(["python", "pipeline.py", "process"], check=True, cwd=BASE_DIR)
+                cmd_process()
                 st.cache_data.clear()
                 st.success("Pipeline complete!")
                 st.rerun()
